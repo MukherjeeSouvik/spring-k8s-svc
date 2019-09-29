@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: spring-k8s-svc
+  main:
+    banner-mode: "off"
+server:
+  port: 8080
+  servlet:
+    context-path: /spring-k8s-svc
